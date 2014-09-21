@@ -2,7 +2,15 @@ Study design
 ============
 The run_analysis.R script reads data from the "Human Activity Recognition Using Smartphones Dataset Version" (http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones) and produces a new tidy dataset which may be used for further analysis.
 
-
+1. Checks if the required "reshape2" has been installed and then loads the "reshape2" package.
+2. Reads all required data sets (original .txt files).
+3. Appropriately labels the data set with descriptive variable names.
+4. Merges the training and the test sets to create one data set.ç
+5. Extracts  only the measurements on the mean and standard deviation for each measurement.
+ * Using the "grep" function, all the columns with mean() and std() values are extracted and then a new data frame is created.
+6. Merge descriptive activity names with the mean/std values to get one dataset with descriptive activity names.
+7. The data set is converted into a table containing mean values of all the included features, ordered by the activity name and the subject id, using 'melt' and 'dcast'.
+8. Finally, the data is written to the "tidydata.txt" file.
 
 Code book
 =========
@@ -10,7 +18,7 @@ Number of observations: 180
 Number of variables: 69
 The prefix 't' in variables denote time.
 The prefix 'f' in variables denote that a Fast Fourier Transform (FFT) was applied.
-From variable 4 to 89 the value type is 'numeric'.
+From variable 4 to 69 the value type is 'numeric'.
 
 1. activityId
   * The identifier of the activity.
