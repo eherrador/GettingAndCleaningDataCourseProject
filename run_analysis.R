@@ -25,7 +25,7 @@ if (!("reshape2" %in% rownames(installed.packages())) ) {
   test_subject_id <- read.table("./data/test/subject_test.txt")
   ## Read the ids of the test subjects
   train_subject_id <- read.table("./data/train/subject_train.txt")
-
+  
   ## Read the activity id's of the test data
   test_activity_id <- read.table("./data/test/y_test.txt")
   ## Read the activity id's of the training data
