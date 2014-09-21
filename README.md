@@ -9,24 +9,24 @@ Code book
 Number of observations: 180
 Number of variables: 89
 
-### activityId
+###### activityId
 *The identifier of the activity.*
 type: integer
 Values: 1 - 6
 
-### activityName
+###### activityName
 *The name of the activity.*
 type: factor
 values: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
 
-### subject_id
-* An identifier of the subject who carried out the experiment.*
+###### subject_id
+*An identifier of the subject who carried out the experiment.*
 type: integer
 values: 1 - 30
 
-### tBodyAcc-mean()-X
-### tBodyAcc-mean()-Y
-### tBodyAcc-mean()-Z
+###### tBodyAcc-mean()-X
+###### tBodyAcc-mean()-Y
+###### tBodyAcc-mean()-Z
 *Mean for Triaxial Body Accelerometer Signal (prefix 't' to denote time).*
 
 
