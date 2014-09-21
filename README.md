@@ -1,5 +1,5 @@
-How the script works
-====================
+Study design
+============
 
 Code book
 =========
