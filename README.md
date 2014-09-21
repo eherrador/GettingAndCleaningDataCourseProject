@@ -86,7 +86,7 @@ From variable 4 to 69 the value type is 'numeric'.
   * Mean in Z axe for jerk signal obtained from body linear acceleration (FFT) 
 30. fBodyGyro-mean()-X  
   * Mean in X axe for body angular velocity (FFT)
-31 fBodyGyro-mean()-Y
+31. fBodyGyro-mean()-Y
   * Mean in Y axe for body angular velocity (FFT)
 32. fBodyGyro-mean()-Z
   * Mean in Z axe for body angular velocity (FFT)
